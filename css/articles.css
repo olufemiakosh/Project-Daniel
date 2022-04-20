@@ -1,0 +1,95 @@
+.header {
+    padding: 2px;
+    background-color: #2E4C6D;
+    margin: 0 auto;
+    color: white;
+    width: auto;
+  }
+  .header p {
+    font-size: 1.5em;
+    font-weight: 600;
+    background: url(images/PHOTO-2022-02-13-10-17-20\ 3.jpg);
+  }
+  .main{
+    max-width:800px;
+    margin: 5vh auto;
+  }
+  .blog-section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 10vh;
+  }
+  .article-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .blog-section > h1 {
+    font-size: 45px;
+    margin-left: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: hsl(233, 26%, 24%);
+  }
+  .article {
+    height: max-content;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color: #fff;
+  }
+  .article > img {
+    width: 250px;
+    height: 250px;
+  }
+  .content {
+    padding: 15px;
+  }
+  .content > p {
+    color: hsl(233, 8%, 62%);
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .content > h4 {
+    color: hsl(233, 26%, 24%);
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  .footer-container{
+    background: #FC997C;
+    color:#0d3566;
+    height: 300px;   
+    position: relative;
+    padding-bottom: 4rem;
+   }
+   .footer{
+     width: 80%;
+     height: 40vh;
+     display: flex;
+     padding: 25px;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     margin:0 auto;
+   }
+   .footer-heading{
+     display: flex;
+     flex-direction: column;
+     margin-right: 4rem;
+   }
+   .footer-container .footer-bottom{
+     background: #162058;
+     color: white;
+     width:100%;
+     height: 80px;
+     text-align: center;
+     position: absolute;
+     bottom: 0px;
+     left:0px;
+     padding-top: 20px;
+   }
+   

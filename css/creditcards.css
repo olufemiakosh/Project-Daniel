@@ -1,0 +1,50 @@
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    max-width: 100%;
+}
+
+h1 {text-align: center;
+    color: 2E4C6D;
+}
+
+.slider {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.col {
+    padding: 1rem;
+    flex: 1;
+}
+
+.col img {
+    width: 100%;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: 2E4C6D;
+}
+
+.text-center {
+    text-align: center;
+}
+
+button {
+    background-color: #0c2e4e;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}
